@@ -1,0 +1,32 @@
+#!/usr/bin/env python
+import requests
+ 
+url = 'http://www.rcsb.org/pdb/rest/search'
+ 
+queryText =
+<?xml version="1.0" encoding="UTF=8">
+<orgPdbQuery>
+   <version>B0907</version>
+   <and-query>
+      <query>
+         <queryType>org.pdb.query.simple.MolecularWeightQuery</queryType>
+         <entity.formula_weight.min>11000</entity.formula_weight.min>
+         <entity.formula_weight.max>37000</entity.formula_weight.max>
+      </query>
+      <query>
+         <queryType>org.pdb.query.simple.BiolUnitQuery</queryType>
+         <oligomeric_statemin>1</oligomeric_statemin>
+         <oligomeric_statemax>6</oligomeric_statemax>
+      </query>
+   </and-query>
+</orgPdbQuery>
+
+print("query:\n" + queryText)
+print("querying PDB...\n")
+header = {'Content-Type': 'application/x-www-form-urlencoded'}
+response = requests.post(url, data=queryText, headers=header)
+ 
+if response.status_code == 200:
+   print("Found %d number of PDB entries:" % len(response.text))
+else:
+   print("Failed to retreive results")
