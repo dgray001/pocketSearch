@@ -1,0 +1,49 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 0.0514
+HEADER 1  - Drug Score                        : 0.0068
+HEADER 2  - Number of alpha spheres           :    38
+HEADER 3  - Mean alpha-sphere radius          : 3.8315
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5000
+HEADER 5  - Mean B-factor of pocket residues  : 0.1492
+HEADER 6  - Hydrophobicity Score              : 14.7500
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 339.4152
+HEADER 10  -Pocket volume (convex hull)       : 22.9939
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 6.2000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.2632
+ATOM    742  ND2 ASN C  98       0.445  -0.177 -12.114  0.00  0.00           N 0
+ATOM    841  CG2 THR C 111       5.646   2.882 -11.796  0.00  0.00           C 0
+ATOM    705   CA ALA C  94       4.119   2.788  -7.406  0.00  0.00           C 0
+ATOM    716    O ARG C  96       1.916  -1.159  -9.077  0.44  3.21           O 0
+ATOM    704    N ALA C  94       3.296   3.971  -7.095  0.49  3.28           N 0
+ATOM    833  CG1 VAL C 110       1.605   2.547 -13.792  0.00  0.00           C 0
+ATOM    831    O VAL C 110       1.954   5.217 -12.104  0.41  8.57           O 0
+ATOM    551    O GLY C  73      -2.037   3.727 -14.065  0.00  0.00           O 0
+ATOM    517   CA GLY C  69      -5.064   2.518  -7.591  0.00  0.00           C 0
+ATOM    518    C GLY C  69      -5.249   1.297  -8.423  0.00  0.00           C 0
+ATOM    519    O GLY C  69      -4.270   0.708  -8.871  0.51  1.07           O 0
+ATOM    719   CD ARG C  96      -2.770  -2.427  -7.897  0.00  0.00           C 0
+ATOM    690    O SER C  92       0.426   4.380  -5.842  0.33  6.43           O 0
+ATOM    515   NZ LYS C  68      -1.702   6.277  -7.644  0.49  4.37           N 0
+ATOM    741  OD1 ASN C  98      -1.282  -0.795 -10.824  0.00  0.00           O 0
+ATOM    526  CG2 VAL C  70      -7.278  -1.509  -6.958  0.00  0.00           C 0
+ATOM    496   CB ALA C  65      -7.586   2.239  -2.740  0.00  0.00           C 0
+ATOM    495    O ALA C  65      -7.751   1.714  -6.045  0.00  0.00           O 0
+ATOM    717   CB ARG C  96      -0.556  -1.471  -7.271  0.00  0.00           C 0
+ATOM    691   CB SER C  92      -1.736   5.188  -4.127  0.00  0.00           C 0
+ATOM    713    N ARG C  96       1.539  -0.665  -6.328  0.48  2.19           N 0
+ATOM    711    C GLY C  95       2.262  -0.814  -5.238  0.00  0.00           C 0
+ATOM    710   CA GLY C  95       2.749   0.510  -4.596  0.00  0.00           C 0
+ATOM    688   CA SER C  92      -0.309   4.993  -3.674  0.00  0.00           C 0
+ATOM    549   CA GLY C  73      -3.864   4.019 -12.608  0.00  0.00           C 0
+ATOM    550    C GLY C  73      -3.031   3.208 -13.585  0.00  0.00           C 0
+ATOM    510    O LYS C  68      -5.457   3.899  -9.886  0.39  1.07           O 0
+TER
+END

@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    23:
+HEADER 0  - Pocket Score                      : -0.0675
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9679
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6865
+HEADER 5  - Mean B-factor of pocket residues  : 0.7349
+HEADER 6  - Hydrophobicity Score              : 29.6667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 161.5108
+HEADER 10  -Pocket volume (convex hull)       : 1.2260
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1875
+ATOM    343    C CYS C  45     -23.428 -17.280   6.094  0.00  0.00           C 0
+ATOM    344    O CYS C  45     -22.881 -17.279   7.188  0.52  8.57           O 0
+ATOM    326    O LYS C  43     -27.156 -15.691   4.335  0.18  5.36           O 0
+ATOM    335    O LYS C  44     -26.936 -18.995   6.205  0.00  0.00           O 0
+ATOM    230    O LYS C  30     -22.059 -12.853   8.264  0.60  1.07           O 0
+ATOM    350   CA ILE C  46     -22.398 -15.163   5.509  0.00  0.00           C 0
+ATOM    349    N ILE C  46     -23.292 -16.295   5.240  0.00  0.00           N 0
+ATOM    351    C ILE C  46     -22.944 -13.913   4.838  0.00  0.00           C 0
+ATOM    231   CB LYS C  30     -23.637 -11.088  10.218  0.00  0.00           C 0
+ATOM    364  CD1 ILE C  47     -26.022 -11.346   4.678  0.00  0.00           C 0
+ATOM    357    N ILE C  47     -22.716 -12.723   5.395  0.00  0.00           N 0
+ATOM    228   CA LYS C  30     -22.735 -12.319  10.525  0.00  0.00           C 0
+ATOM    232   CG LYS C  30     -24.748 -10.866  11.186  0.00  0.00           C 0
+ATOM    233   CD LYS C  30     -25.500  -9.442  10.978  0.00  0.00           C 0
+ATOM    361   CB ILE C  47     -23.937 -10.693   5.661  0.00  0.00           C 0
+TER
+END

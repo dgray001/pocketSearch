@@ -1,0 +1,50 @@
+change all python to python3 (unless specified)
+
+
+fpocket on original pdb
+
+setup.py
+creates conformations of target (1m1n.pdb) pocket
+need to already have run fpocket and decided what pocket you want (the one with FeMoCo i.e.)
+
+pick-random-pdbs.py
+takes 100 random lines from sublists/pdb_lists.txt
+downloads the pdb => 
+
+
+
+search-for-pockets
+	so-called master command file
+
+prepare-pdbs.py
+runs a script called clean_pdb.py which comes from Rosetta (tools/protein_tools/scripts)
+
+gen-pockets
+runs fpocket on all our pdbs from rcbi
+output = pdb with pockets + original atoms
+
+pocket-finder.py
+cuts out pockets of appropriate size and puts them in new pdb file
+minimum cutoff already applied in fpocket here apply maximum cutoff
+
+align-structures.py
+centers and aligns the pockets from pocket-finder.py
+
+compare.py
+VASP on each conformation of each aligned structure from align-structures.py
+outputs is intersect volume and the original pocket volume
+
+get-score-file.py
+generates score file and appends to master score file
+
+rosetta-prep.py
+goes through score file and generates pose file (for Rosetta) from pdb file with AA residues (from fpocket) for any pockets that have 1+ hits & >=0.7% intersect volume
+
+move-good-pdbs.py
+housekeeping
+
+
+.tcl
+vmd scripts
+measure-sasa.tcl
+maybe align instead of to longest distance to cavity opening

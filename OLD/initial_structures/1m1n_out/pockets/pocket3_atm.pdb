@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     3:
+HEADER 0  - Pocket Score                      : 0.1060
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8734
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6107
+HEADER 5  - Mean B-factor of pocket residues  : 0.7378
+HEADER 6  - Hydrophobicity Score              : -24.0000
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 3.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 274.9288
+HEADER 10  -Pocket volume (convex hull)       : 8.2632
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1875
+ATOM   3010   CB ASN C 384     -23.637 -12.392  -1.236  0.00  0.00           C 0
+ATOM    330   CE LYS C  43     -27.358 -11.282  -0.734  0.00  0.00           C 0
+ATOM   3049  OD2 ASP C 388     -24.525 -16.077  -5.019  0.42  9.64           O 0
+ATOM    328   CG LYS C  43     -26.876 -13.374   0.595  0.00  0.00           C 0
+ATOM    323    N LYS C  43     -25.727 -16.197   1.050  0.00  0.00           N 0
+ATOM    312   CB GLN C  41     -28.430 -19.133  -1.479  0.00  0.00           C 0
+ATOM    327   CB LYS C  43     -27.427 -14.485   1.443  0.00  0.00           C 0
+ATOM    309   CA GLN C  41     -26.974 -19.218  -1.824  0.00  0.00           C 0
+ATOM    317    N SER C  42     -25.029 -18.163  -0.868  0.00  0.00           N 0
+ATOM   3020  OD1 ASP C 385     -20.915 -10.771  -6.272  0.00  0.00           O 0
+ATOM   3021  OD2 ASP C 385     -22.201 -10.585  -8.087  0.00  0.00           O 0
+ATOM   3019   CG ASP C 385     -21.820 -11.219  -7.043  0.00  0.00           C 0
+ATOM   3000   CB HIS C 383     -20.685  -8.615  -3.531  0.00  0.00           C 0
+ATOM   3006    N ASN C 384     -21.800 -10.994  -2.060  0.00  0.00           N 0
+ATOM   3014    N ASP C 385     -22.162 -12.554  -4.342  0.61  1.09           N 0
+ATOM    331   NZ LYS C  43     -28.394 -10.440  -1.495  0.00  0.00           N 0
+ATOM   3018   CB ASP C 385     -22.428 -12.545  -6.772  0.00  0.00           C 0
+ATOM   3048  OD1 ASP C 388     -23.990 -16.921  -3.043  0.72  2.14           O 0
+ATOM   3002  ND1 HIS C 383     -21.027  -6.299  -4.484  0.61  7.66           N 0
+TER
+END

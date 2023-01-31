@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    18:
+HEADER 0  - Pocket Score                      : -0.0108
+HEADER 1  - Drug Score                        : 0.0020
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0826
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6916
+HEADER 5  - Mean B-factor of pocket residues  : 0.3336
+HEADER 6  - Hydrophobicity Score              : 16.7500
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 272.8155
+HEADER 10  -Pocket volume (convex hull)       : 2.9323
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.6000
+ATOM   2357   CA THR C 303      -5.848 -27.580 -13.811  0.00  0.00           C 0
+ATOM   2386  CD1 ILE C 306      -3.705 -28.839 -18.033  0.00  0.00           C 0
+ATOM   2361  OG1 THR C 303      -5.406 -29.285 -12.138  0.46  7.50           O 0
+ATOM   2362  CG2 THR C 303      -7.741 -28.710 -12.575  0.00  0.00           C 0
+ATOM   2385  CG2 ILE C 306      -6.548 -28.547 -19.506  0.00  0.00           C 0
+ATOM   2359    O THR C 303      -7.591 -26.723 -15.223  0.35  4.29           O 0
+ATOM   2419  NH1 ARG C 310      -8.390 -31.148 -20.894  0.00  0.00           N 0
+ATOM   2383   CB ILE C 306      -5.891 -27.521 -18.634  0.00  0.00           C 0
+ATOM   2388   CA GLU C 307     -10.067 -25.958 -18.117  0.00  0.00           C 0
+ATOM   2392   CG GLU C 307     -12.130 -26.001 -16.603  0.00  0.00           C 0
+ATOM   2416   CD ARG C 310      -9.641 -29.031 -22.251  0.00  0.00           C 0
+ATOM   2387    N GLU C 307      -8.607 -26.070 -18.069  0.00  0.00           N 0
+ATOM   2414   CB ARG C 310     -10.861 -26.831 -22.672  0.00  0.00           C 0
+ATOM   2391   CB GLU C 307     -10.611 -26.075 -16.718  0.00  0.00           C 0
+ATOM   2390    O GLU C 307     -11.431 -24.700 -19.620  0.65  3.21           O 0
+TER
+END
